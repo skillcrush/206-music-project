@@ -200,15 +200,10 @@ footer {
 	}
 	.top-img {
 		width:50%;
-		margin-left:5%;
 		float:left;
-		margin:0px;
-	}
-	.top-img img{
-		width:100%;
 	}
 	.top-info{
-		width:45%;
+		width:50%;
 		float:right;
 	}
 	
@@ -275,8 +270,89 @@ footer {
 	}
 }
 
+
+
 @media (min-width:940px) {
+	/* Header =========================== */
+
+	#logo {
+		width: 30%;
+	}
+	nav {
+		width: 70%;
+	}
 	
+	/* Featured News Item =========================== */
+	
+	.top-story {
+		width:70%;
+		float:left;
+	}
+	.top-img {
+		width:100%;
+	}
+	
+	.top-info{
+		width:100%;
+		float:none;
+	}
+	
+	/* Side Bar =========================== */
+	
+	
+	.sidebar {
+		clear:none;
+		width:30%;
+		float:right;
+	}
+	
+	/* News/Reviews Feed Section =========================== */
+	
+	.feed {
+		width:100%;
+		float:none;
+	}
+		.feed p{
+			display:block;
+		}
+	
+	.feed-img {
+		width:20%;
+	}
+	
+	/* DETAILED PAGES ================================ */
+	
+	article.detailed-content{
+		width:70%;
+		float:left;
+	}
+	
+	.reviews-img, .news-img{
+		width:100%;
+		float:none;
+	}
+	
+	.detail-title{
+		width:100%;
+		float:none;
+	}
+	aside.detail{
+		width:30%;
+		float:right;	
+	}
+	
+	
+	/* Footer =========================== */
+	
+	footer {
+		width: 100%;
+		clear:both;
+	}
+	#footer-logo{
+		width:30%;
+		margin:auto;
+	}
+
 }
 
 
