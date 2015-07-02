@@ -108,11 +108,15 @@ nav ul li {
 	padding: 0 2%;
 }
 
+/* HOME PAGE AND REVIEWS PAGE ================================ */
+
 /* Featured News Item =========================== */
 
 .top-story {
+	width:100%;
 }
 .top-img {
+	width:100%;
 }
 
 /* Side Bar =========================== */
@@ -120,26 +124,46 @@ nav ul li {
 aside{
 }
 .sidebar {
+	width:100%;
 }
 .newsletter {
 }
 .upcoming {
+	display:none;
 }
 .faq {
+	display:none;
 }
 
-/* News/Reviews Feed Section */
+/* News/Reviews Feed Section =========================== */
 
 .feed {
+	width:100%;
 }
+	.feed p{
+		display:none;
+	}
 .feed-item {
+	clear:both;
 }
 .feed-type {
 }
 .feed-img {
+	width:45%;
+	margin-right:5%;
+	float:left;
+	margin:0px;
 }
 
-/* Footer */
+
+/* DETAILED PAGES ================================ */
+
+.reviews-img, .news-img{
+	width:100%;
+	margin:0px;
+}
+
+/* Footer =========================== */
 
 footer {
 	width: 70%;
@@ -148,6 +172,9 @@ footer {
 #footer-logo {
 	width: 100%; 
 }
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
