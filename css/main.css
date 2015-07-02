@@ -83,11 +83,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.clear{
+	clear:both;
+}
 
 /* Header =========================== */
 
 header {
-	width: 100%;
+	width: 96%;
+	margin:auto;
 }
 #logo {
 	width: 90%;
@@ -105,7 +109,7 @@ nav ul li {
 
 #main-content {
 	width: 96%;
-	padding: 0 2%;
+	margin:auto;
 }
 
 /* HOME PAGE AND REVIEWS PAGE ================================ */
@@ -117,7 +121,9 @@ nav ul li {
 }
 .top-img {
 	width:100%;
+	margin:0px;
 }
+
 
 /* Side Bar =========================== */
 
@@ -156,6 +162,7 @@ aside{
 }
 
 
+
 /* DETAILED PAGES ================================ */
 
 .reviews-img, .news-img{
@@ -172,6 +179,109 @@ footer {
 #footer-logo {
 	width: 100%; 
 }
+
+
+@media (min-width:786px) {
+	/* Header =========================== */
+
+	#logo {
+		width: 40%;
+		float:left;
+	}
+	nav {
+		width: 60%;
+		float:right;
+	}
+	
+	/* Featured News Item =========================== */
+	
+	.top-story {
+		width:100%;
+	}
+	.top-img {
+		width:50%;
+		margin-left:5%;
+		float:left;
+		margin:0px;
+	}
+	.top-img img{
+		width:100%;
+	}
+	.top-info{
+		width:45%;
+		float:right;
+	}
+	
+	/* Side Bar =========================== */
+	
+	aside{
+	}
+	.sidebar {
+		clear:both;
+		width:30%;
+		float:right;
+	}
+	.newsletter {
+	}
+	.upcoming {
+		display:block;
+	}
+	.faq {
+		display:block;
+	}
+	
+	/* News/Reviews Feed Section =========================== */
+	
+	.feed {
+		width:60%;
+		float:left;
+	}
+	
+	.feed-img {
+		width:35%;
+	}
+	
+	/* DETAILED PAGES ================================ */
+	
+	.reviews-img, .news-img{
+		width:50%;
+		margin:0px;
+		float:left;
+	}
+	
+	.detail-title{
+		width:50%;
+		float:right;
+	}
+	aside.detail{
+		width:100%;	
+	}
+	.detail .newsletter h2{
+		display:inline;
+	}
+	.detail .newsletter input{
+		display:inline;
+	}
+	
+	/* Footer =========================== */
+	
+	footer {
+		width: 100%;
+		clear:both;
+	}
+	#footer-logo{
+		width:30%;
+		margin:auto;
+	}
+}
+
+@media (min-width:940px) {
+	
+}
+
+
+
+
 
 
 
