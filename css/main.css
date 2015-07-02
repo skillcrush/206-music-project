@@ -86,22 +86,26 @@ textarea {
 /* COLORS =============================================
 
 Dark Pink (Magenta): #b21e49;
-Light Grey: #eeeeee;
+Light Grey: #eee;
 Bright Pink: #ff1256;
-Dark Grey: #222222;
+Dark Grey: #222;
 Blue: #23a4cc;
 
 ============================================= */
 body, html{
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;
+	color:#222;
 	
 }
 a {
 	font-weight:bold;
 	color:#23a4cc;
+	text-decoration:none;
 }
 p{
-	
+	font-size:1rem;
+	line-height:1.4rem;
 }
 h1, h2, h3, h4{
 	
@@ -110,13 +114,26 @@ h1{
 	
 }
 h2{
-	
+	text-transform:uppercase;
 }
 h3{
 	
 }
 h4{
 	
+}
+.btn{
+	background-color:#ff1256;
+	border:none;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:1.6em;
+	text-align: center;
+	box-shadow:2px 2px 0px #DADADA;
+}
+.btn:hover{
+	background-color:#b21e49;
 }
 
 .clear{
