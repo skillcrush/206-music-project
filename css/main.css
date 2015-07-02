@@ -200,15 +200,10 @@ footer {
 	}
 	.top-img {
 		width:50%;
-		margin-left:5%;
 		float:left;
-		margin:0px;
-	}
-	.top-img img{
-		width:100%;
 	}
 	.top-info{
-		width:45%;
+		width:50%;
 		float:right;
 	}
 	
