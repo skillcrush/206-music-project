@@ -82,6 +82,42 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+/* COLORS =============================================
+
+Dark Pink (Magenta): #b21e49;
+Light Grey: #eeeeee;
+Bright Pink: #ff1256;
+Dark Grey: #222222;
+Blue: #23a4cc;
+
+============================================= */
+body, html{
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+a {
+	font-weight:bold;
+	color:#23a4cc;
+}
+p{
+	
+}
+h1, h2, h3, h4{
+	
+}
+h1{
+	
+}
+h2{
+	
+}
+h3{
+	
+}
+h4{
+	
+}
 
 .clear{
 	clear:both;
