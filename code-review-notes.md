@@ -9,26 +9,26 @@ Changing the logo to H1 (it's semantic!)
 
 In this instance:
 
-``
+```
 <a href="#"><div class="btn">See All</div></a>
-``
+```
 The div is actually unneccesary, so I edited it to this:
 
-``
+```
 <a href="#" class="btn">See All</a>
-``
+```
 
 ###v06.06
 On the news detail page:
 
-````
+```
 <h1>Wilco Announces New Album and Summer Tour</h1>
 <p>Author Name  |  June 09, 2015</p>
-````
+```
 
 An h1 is right, but since the logo is the h1 it conflicts UNLESS, you wrap it in a header element since every header can have an h1:
 
-``
+```
 <header class="article-header">
     <h1>Wilco Announces New Album and Summer Tour</h1>
     <ul class="article-meta-info">
@@ -36,7 +36,7 @@ An h1 is right, but since the logo is the h1 it conflicts UNLESS, you wrap it in
 		<li class="article-pub-date"><time>June 09, 2015</time></li>
 	</ul>
 </header>
-``
+```
 
 I also changed the article info to a ul, since it's a list of info (you can style it to look however you want), gave each section a class related to it's content and also added the time HTML5 tag for the time element.
 
