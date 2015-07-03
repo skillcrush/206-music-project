@@ -83,25 +83,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 /* Header =========================== */
 header {
 	width: 100%;
 }
+
 #logo {
 	width: 90%;
 	margin: auto;
 }
+
 nav {
 	width: 100%;
 }
+
 nav ul {
 	margin: auto;
 }
 nav ul li {
 }
-/* Main Content =========================== */
 
+/* Main Content =========================== */
 #main-content {
 	width: 96%;
 	padding: 0 2%;
@@ -139,9 +141,10 @@ aside{
 .feed {
 	width:100%;
 }
-	.feed p{
+.feed p{
 		display:none;
-	}
+}
+
 .feed-item {
 	clear:both;
 }
@@ -163,15 +166,14 @@ aside{
 }
 
 /* Footer =========================== */
-
 footer {
 	width: 70%;
 	margin: auto;
 }
+
 #footer-logo {
 	width: 100%; 
 }
-
 
 
 /* ==========================================================================
