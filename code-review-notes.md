@@ -65,7 +65,7 @@ Add in media queries for tablets and start writing styles to a bunch of sections
 
 ###v07.04
 
-
+Students add in styles for desktop, it's still pretty plain...
 
 ###v08.01
 
