@@ -63,6 +63,8 @@ Cleaned up the branches and renamed the branch from v07.02b --> v07.02
 
 Add in media queries for tablets and start writing styles to a bunch of sections.
 
+.clear class actually showed up here so I am deleting it from here on out. Use the .clearfix class instead!
+
 ###v07.04
 
 Students add in styles for desktop, it's still pretty plain...
