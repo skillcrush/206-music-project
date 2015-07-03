@@ -71,6 +71,8 @@ Students add in styles for desktop, it's still pretty plain...
 
 Make sure to note to the students that the responsive images are not set up yet which is why things look cray cray!
 
+Also, I am removing the .clear class, because HTML5 comes with .clearfix as a default style and it does what you are using the .clear class for! Going to make this edit throughout the branches.
+
 ###v08.02
 
 
