@@ -18,7 +18,7 @@ The div is actually unneccesary, so I edited it to this:
 <a href="#" class="btn">See All</a>
 ```
 
-###v06.06
+###v06.05 & v06.06
 On the news detail page:
 
 ```
@@ -41,3 +41,19 @@ An h1 is right, but since the logo is the h1 it conflicts UNLESS, you wrap it in
 I also changed the article info to a ul, since it's a list of info (you can style it to look however you want), gave each section a class related to it's content and also added the time HTML5 tag for the time element.
 
 [This is a good stack overflow thread that discusses an example very close to this one.](http://stackoverflow.com/questions/7290504/which-html5-tag-should-i-use-to-mark-up-an-author-s-name)
+
+###v07.01
+
+Add percentages to header & footer (those are good)
+
+There are also a bunch of classes added to the main.css --> this should be added to the challenge
+
+###v07.02b
+
+###v07.03
+
+###v07.04
+
+###v08.01
+
+###v08.02
