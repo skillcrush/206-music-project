@@ -83,71 +83,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 /* Header =========================== */
-
 header {
 	width: 100%;
 }
-#logo {
-	width: 90%;
-	margin: auto;
-}
+
 nav {
 	width: 100%;
 }
-nav ul {
-	margin: auto;
-}
-nav ul li {
-}
-/* Main Content =========================== */
 
+/* Main Content =========================== */
 #main-content {
 	width: 96%;
 	padding: 0 2%;
 }
 
-/* Featured News Item =========================== */
-
-.top-story {
-}
-.top-img {
-}
-
-/* Side Bar =========================== */
-
-aside{
-}
-.sidebar {
-}
-.newsletter {
-}
-.upcoming {
-}
-.faq {
-}
-
-/* News/Reviews Feed Section */
-
-.feed {
-}
-.feed-item {
-}
-.feed-type {
-}
-.feed-img {
-}
-
 /* Footer */
-
 footer {
 	width: 70%;
 	margin: auto;
 }
-#footer-logo {
-	width: 100%; 
-}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
