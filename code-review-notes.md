@@ -59,6 +59,8 @@ Add classes for a bunch of the various layout elements with percentages for widt
 
 Cleaned up the branches and renamed the branch from v07.02b --> v07.02
 
+[Learn more how to delete branches](http://stackoverflow.com/questions/2003505/delete-a-git-branch-both-locally-and-remotely)
+
 ###v07.03
 
 Add in media queries for tablets and start writing styles to a bunch of sections.
@@ -77,6 +79,8 @@ Also, I am removing the .clear class, because HTML5 comes with .clearfix as a de
 
 ###v08.02
 
+More styles from the style tile!
 
 ###v08.03
 
+Even MORE styles.

@@ -204,6 +204,7 @@ aside{
 .feed-item {
 	clear:both;
 }
+
 .feed-type {
 }
 .feed-img {
@@ -213,10 +214,7 @@ aside{
 	margin:0px;
 }
 
-
-
 /* DETAILED PAGES ================================ */
-
 .reviews-img, .news-img{
 	width:100%;
 	margin:0px;
@@ -231,7 +229,6 @@ footer {
 #footer-logo {
 	width: 100%; 
 }
-
 
 @media (min-width:786px) {
 	/* Header =========================== */
@@ -349,8 +346,6 @@ footer {
 	}
 	
 	/* Side Bar =========================== */
-	
-	
 	.sidebar {
 		clear:none;
 		width:30%;
