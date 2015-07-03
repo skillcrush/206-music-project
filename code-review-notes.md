@@ -46,13 +46,26 @@ I also changed the article info to a ul, since it's a list of info (you can styl
 
 Add percentages to header & footer (those are good)
 
-There are also a bunch of classes added to the main.css --> this should be added to the challenge
+- header
+- nav
+- main-content
+- footer
 
-###v07.02b
+Had to remove some css classes that should have been in v07.02
+
+###v07.02
+
+Add classes for a bunch of the various layout elements with percentages for widths, etc.
+
+Cleaned up the branches and renamed the branch from v07.02b --> v07.02
 
 ###v07.03
 
+Add in media queries for tablets and start writing styles to a bunch of sections.
+
 ###v07.04
+
+
 
 ###v08.01
 
