@@ -69,4 +69,10 @@ Students add in styles for desktop, it's still pretty plain...
 
 ###v08.01
 
+Make sure to note to the students that the responsive images are not set up yet which is why things look cray cray!
+
 ###v08.02
+
+
+###v08.03
+
