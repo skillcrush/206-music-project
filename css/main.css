@@ -290,6 +290,24 @@ aside{
 
 /* ABOUT PAGE ================================ */
 
+.contact-info{
+		width:100%;
+		padding-top:30px;
+	}
+		.contact-info ul{
+			list-style:none;
+			padding:0px;
+		}
+			.contact-info ul li{
+				display:inline-block;
+				vertical-align: top;
+			}
+.contact-map{
+
+}
+.strong{
+	font-weight:bold;
+}
 .mission{
 	width:100%;
 }
@@ -645,7 +663,8 @@ footer {
 	.team-description{
 		display:block;
 	}
-
+	
+	
 	
 	/* Footer =========================== */
 	
