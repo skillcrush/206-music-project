@@ -275,18 +275,14 @@ aside{
 	margin:0px;
 	padding-right: 3%;	
 }
-	.feed-img img{
-		max-width: 200px;
-	}
+
 
 /* DETAILED PAGES ================================ */
 .reviews-img, .news-img{
 	width:100%;
 	margin:0px;
 }
-	.reviews-img img, .news-img img{
-		max-width: 620px;
-	}
+
 
 /* Footer =========================== */
 footer {
