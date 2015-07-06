@@ -98,7 +98,6 @@ body, html{
 	background-color:#eee;
 	
 }
-
 a {
 	font-weight:bold;
 	color:#23a4cc;
@@ -126,6 +125,11 @@ h3{
 h4{
 	
 }
+img{
+	width:100%;
+	height:auto;
+}
+
 .btn, .btn2{
 	background-color:#ff1256;
 	border:none;
@@ -500,6 +504,7 @@ footer {
 	}
 	.top-img {
 		width:100%;
+		max-width:620px;
 		padding-bottom:1rem;
 	}
 	
