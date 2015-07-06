@@ -288,6 +288,36 @@ aside{
 		max-width: 620px;
 	}
 
+/* ABOUT PAGE ================================ */
+
+.mission{
+	width:100%;
+}
+.team{
+	
+}
+.team-member{
+	padding:15px 0px;
+}
+.team-img{
+	background-position:center;
+	background-size:cover;
+	width:40%;
+	padding-bottom:40%;
+	float:left;
+	margin-right:20px;
+	border:1px solid #ccc;
+}
+.team-name{
+	margin-bottom:0px;
+}
+.team-title{
+	margin-top:0px;
+}
+.team-description{
+	display:none;
+}
+
 /* Footer =========================== */
 footer {
 	width: 100%;
@@ -446,7 +476,26 @@ footer {
 			border-right:1px solid;
 			margin-right:10px;
 		}
+	/* ABOUT PAGE ================================ */
 	
+	.mission{
+		border-top:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+		padding:15px 0px;
+		
+	}
+	.team{
+		padding-top:15px;
+	}
+	.team-member{
+		padding:15px 0px;
+	}
+	.team-img{
+		width:20%;
+		padding-bottom:20%;
+		margin-right:10%;
+	}
+
 	/* Footer =========================== */
 	
 	footer {
@@ -580,6 +629,23 @@ footer {
 			margin-right:0px;
 		}
 	
+	/* ABOUT PAGE ================================ */
+	
+	.team-member{
+		padding:15px 0px;
+	}
+	.team-img{
+		width:20%;
+		padding-bottom:20%;
+		margin-right:5%;
+	}
+	.team-name{
+		margin-top:0px;
+	}
+	.team-description{
+		display:block;
+	}
+
 	
 	/* Footer =========================== */
 	
