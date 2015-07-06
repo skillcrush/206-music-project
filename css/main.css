@@ -222,7 +222,9 @@ nav .subnav {
 	width:100%;
 	margin:0px;
 }
-
+	.top-img img{
+		max-width: 620px;
+	}
 
 /* Side Bar =========================== */
 
