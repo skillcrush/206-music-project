@@ -289,7 +289,9 @@ aside{
 	}
 
 /* ABOUT PAGE ================================ */
-
+.contact-area{
+	padding-top:30px;
+}
 .contact-info{
 		width:100%;
 		padding-top:30px;
@@ -302,9 +304,20 @@ aside{
 				display:inline-block;
 				vertical-align: top;
 			}
-.contact-map{
-
+.map-container{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+	
 }
+	.map-container iframe {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 .strong{
 	font-weight:bold;
 }
@@ -495,7 +508,28 @@ footer {
 			margin-right:10px;
 		}
 	/* ABOUT PAGE ================================ */
-	
+	.contact-info{
+		width:40%;
+		float:left;
+	}
+	.map-container{
+		position: relative;
+		padding-bottom: 40%;
+		height: 0;
+		overflow: hidden;
+		width:58%;
+		float:right;
+		border:1px solid #333;
+		margin-bottom:40px;
+		
+	}
+		.map-container iframe {
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
 	.mission{
 		border-top:1px solid #ccc;
 		border-bottom:1px solid #ccc;
