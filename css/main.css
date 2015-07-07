@@ -125,10 +125,6 @@ h3{
 h4{
 	
 }
-img{
-	width:100%;
-	height:auto;
-}
 
 .btn, .btn2{
 	background-color:#ff1256;
@@ -169,6 +165,7 @@ header {
 	padding:2%;
 	text-align:center;
 }
+
 	#logo img{
 		width:100%; 
 		margin:auto;
@@ -275,6 +272,7 @@ aside{
 	margin:0px;
 	padding-right: 3%;	
 }
+
 
 
 /* DETAILED PAGES ================================ */
