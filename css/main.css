@@ -125,10 +125,6 @@ h3{
 h4{
 	
 }
-img{
-	width:100%;
-	height:auto;
-}
 
 .btn, .btn2{
 	background-color:#ff1256;
@@ -169,6 +165,7 @@ header {
 	padding:2%;
 	text-align:center;
 }
+
 	#logo img{
 		width:100%;
 		margin:auto;
@@ -278,6 +275,7 @@ aside{
 	.feed-img img{
 		max-width: 200px;
 	}
+
 
 /* DETAILED PAGES ================================ */
 .reviews-img, .news-img{
