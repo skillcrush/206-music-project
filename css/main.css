@@ -196,6 +196,9 @@ nav {
 	nav .subnav {
 		display:none;
 	}
+	nav i{
+		padding-right:10px;
+	}
 	
 /* Main Content =========================== */
 #main-content {
