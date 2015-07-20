@@ -107,6 +107,10 @@ p{
 	font-size:1em;
 	line-height:1.4em;
 }
+img{
+	width: 100%;
+	height: auto;
+}
 h1, h2, h3, h4{
 	font-weight:bold;
 }
@@ -218,7 +222,7 @@ nav {
 	margin:0px;
 }
 	.top-img img{
-		max-width: 620px;
+		width:100%;
 	}
 
 
@@ -319,6 +323,29 @@ aside{
 		width: 100%;
 		height: 100%;
 	}
+.contact-info ul{
+	list-style:none;
+	padding:0px;
+}
+.contact-info ul li{
+	display:inline-block;
+	vertical-align: top;
+}
+
+.map-container{
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+.map-container iframe{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+}
+
 .strong{
 	font-weight:bold;
 }
@@ -711,7 +738,9 @@ footer {
 		width:30%;
 		margin:auto;
 	}
-
+		#footer-logo img{
+			max-width: 165px;
+		}
 }
 
 /* ==========================================================================
