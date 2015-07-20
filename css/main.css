@@ -107,6 +107,10 @@ p{
 	font-size:1em;
 	line-height:1.4em;
 }
+img{
+	width: 100%;
+	height: auto;
+}
 h1, h2, h3, h4{
 	font-weight:bold;
 }
@@ -218,7 +222,7 @@ nav {
 	margin:0px;
 }
 	.top-img img{
-		max-width: 620px;
+		width:100%;
 	}
 
 
