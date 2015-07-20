@@ -230,7 +230,8 @@ footer {
 	width: 100%; 
 }
 
-@media (min-width:786px) {
+
+@media (min-width:768px) {
 	/* Header =========================== */
 
 	#logo {
