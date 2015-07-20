@@ -17,7 +17,7 @@ html {
 }
 
 /*
- * Remove text-shadow in selection highlight:
+ * emove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
  * These selection rule sets have to be separate.
@@ -45,7 +45,7 @@ hr {
 	padding: 0;
 }
 /*
- * Remove the gap between audio, canvas, iframes,
+ * emove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
@@ -54,7 +54,7 @@ audio, canvas, iframe, img, svg, video {
 	vertical-align: middle;
 }
 /*
- * Remove default fieldset styles.
+ * emove default fieldset styles.
  */
 
 fieldset {
@@ -104,18 +104,18 @@ a {
 	text-decoration:none;
 }
 p{
-	font-size:1rem;
-	line-height:1.4rem;
+	font-size:1em;
+	line-height:1.4em;
 }
 h1, h2, h3, h4{
 	font-weight:bold;
 }
 h1{
-	font-size:1.4rem;
-	line-height:1.6rem;
+	font-size:1.4em;
+	line-height:1.6em;
 }
 h2{
-	font-size:1rem;
+	font-size:1em;
 	
 }
 h3{
@@ -132,10 +132,10 @@ h4{
 	color:#fff;
 	font-weight:bold;
 	text-transform:uppercase;
-	line-height:2.5rem;
+	line-height:2.5em;
 	text-align: center;
 	box-shadow:2px 2px 0px #DADADA;
-	height:2.5rem;
+	height:2.5em;
 	width:100%;
 	display:block;
 }
@@ -193,10 +193,15 @@ nav {
 			padding:15px 0;
 		}
 			nav ul li a{
-				font-size:1.125rem;
+				font-size:1.125em;
 				text-transform:uppercase;
 				color:#333;		
 			}
+
+		nav ul li.current a{
+			color:#ff1256;
+		}
+
 	nav .subnav {
 		display:none;
 	}
@@ -278,7 +283,7 @@ aside{
 	}
 .feed-type {
 	text-transform:uppercase;
-	font-size:0.8rem;
+	font-size:0.8em;
 }
 .feed-img {
 	width:45%;
@@ -379,7 +384,7 @@ footer {
 	/* Header =========================== */
 	.grey-line{
 		width:100%;
-		height:2rem;
+		height:2em;
 		position:absolute;
 		top:16px;
 		background:#ddd;
@@ -405,11 +410,35 @@ footer {
 		float:right;
 		padding:0 4%;
 		border:none;
-		line-height:2rem;
+		line-height:2em;
 		position:relative;
 		top:16px;
 	}
-	
+	nav ul li.current .subnav{
+			display: block;
+			position: absolute;
+			width: 300px;
+			top: 20px;
+			right: -40px;
+		}
+			nav ul li.current .subnav li{
+				background: none;
+				float: left;
+				text-align: right;
+				text-transform: none;
+				display: inline-block;
+			}
+			nav ul li.current .subnav li a{
+				color:#333;
+				font-size: 1em;
+			}
+			nav ul li.current .subnav li.current a{
+				color:#ff1256;
+
+			}
+			nav ul li.current .subnav li i{
+				display:none;
+			}
 
 	/* Featured News Item =========================== */
 	
@@ -575,11 +604,11 @@ footer {
 @media (min-width:940px) {
 	
 	h1{
-		font-size:1.6rem;
-		line-height:1.8rem;
+		font-size:1.6em;
+		line-height:1.8em;
 	}
 	h2{
-		font-size:1.4rem;	
+		font-size:1.4em;	
 	}
 	
 	/* Header =========================== */
@@ -611,7 +640,7 @@ footer {
 	.top-img {
 		width:100%;
 		max-width:620px;
-		padding-bottom:1rem;
+		padding-bottom:1em;
 	}
 	
 	.top-info{
