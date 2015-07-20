@@ -345,6 +345,14 @@ aside{
 	width:100%;
 	height: 100%;
 }
+.map-container iframe{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+}
+
 
 .strong{
 	font-weight:bold;
