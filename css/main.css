@@ -384,6 +384,15 @@ aside{
 .team-description{
 	display:none;
 }
+#team-img-jack {
+	background-image:url('../img/team-jack.png');
+}
+#team-img-lana {
+	background-image:url('../img/team-lana.png');
+}
+#team-img-willow {
+	background-image:url('../img/team-willow.png');
+}
 
 /* Footer =========================== */
 footer {
