@@ -322,6 +322,10 @@ aside{
 .team-description{
 	display:none;
 }
+#team-img-jack {
+	background-image:url('../img/team-jack.png');
+}
+
 
 /* Footer =========================== */
 footer {
